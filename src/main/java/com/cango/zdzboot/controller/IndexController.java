@@ -18,7 +18,7 @@ public class IndexController {
     @RequestMapping("/hello")
     @ResponseBody
      String index() {
-        String a ="123";
+
         List<MSequence> list =mSequenceDao.createInsureNo();
         System.out.println("asdsadasd"
         );
